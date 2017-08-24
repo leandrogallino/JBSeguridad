@@ -1,0 +1,96 @@
+/*
+Rojo: #80270f;
+Blanco: #fbf8f8;
+Negro: #181818;
+*/
+
+/* Jumbotron */
+.nb-fix {
+    margin-top: 56px;
+}
+
+.carousel-caption > h3,p{
+/*      display: block;*/
+/*    background: rgba(0, 0, 0, 0.5);*/
+}
+
+.carousel-caption > h3{
+    padding: 1rem;
+    margin-bottom: 25%;
+    text-align: left;
+    display: inline;
+}
+
+.carousel-caption {
+    align-content:
+}
+
+
+/* Categorias */
+#categorias{
+    background-color: #fbf8f8;
+}
+
+#NuestrosProductos {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    display: none;
+    
+}
+
+.thumbnail:hover .caption{
+    display: block;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+        );
+    padding-top: 25%;
+}
+
+/* Marcas */
+/*
+#marcas{
+    background-color: #80270f;
+}
+*/
+
+
+/* Footer */
+.footer{
+    background-color: #181818;
+}
+
+.f-info{
+    color: white;
+    font-size: .8rem;
+}
+
+.f-list{
+    list-style: none;
+    line-height: 1.5rem;
+    padding-left: 0;
+}
+
+.f-contacto{
+    display: inline-block;
+    margin-left: .7rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
