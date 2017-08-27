@@ -34,7 +34,7 @@ body {
 }
 
 .navbar-brand {
-    display: inline-block !important;
+/*    display: inline-block !important;*/
     width: auto;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .navbar-nav a {
-    font-size: .9vw;
+    font-size: .9rem;
 }
 
 .navbar-nav a:hover {
@@ -168,6 +168,7 @@ body {
 .horizontal-line {
     background-color: #181818;
     margin-bottom: 1.5rem;
+    width: auto;
 }
 
 .thumbnail {
