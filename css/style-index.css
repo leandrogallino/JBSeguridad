@@ -1,40 +1,173 @@
 /*
-Rojo: #80270f;
-Blanco: #fbf8f8;
-Negro: #181818;
+Rojo: #69200c;
+Blanco: #e1dfdf;
+Negro: #2b2828;
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
 */
 
-/* Jumbotron */
+body {
+    background-color: #e1dfdf;
+}
+
+/* misc */
+
+/* Para que los divisores no sean seleccionables */
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    cursor: default;
+}
+
+/* Navbar */
+.navbar {
+    color: white;
+    background-color: #2b2828;
+    max-width: 100%;
+}
+
+.navbar-brand {
+    display: inline-block !important;
+    width: auto;
+}
+
+.navbar-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+.navbar a {
+    color: #eaeaea;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar-nav a {
+    font-size: .9vw;
+}
+
+.navbar-nav a:hover {
+    text-decoration: none;
+}
+
+.nb-text {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+#contacto-item {    
+    border: 1px solid #2b2828;
+    border-radius: 6px;
+}
+
+#contacto-item:hover {
+    border: 1px solid #eaeaea;
+}
+
+.navbar-nav a i {
+    color: firebrick;
+    font-size: 1.3rem;
+}
+
+.nb-div {
+    margin: auto;
+    padding-bottom: .5rem;
+    
+    
+    font-size: .8vw;
+    color:firebrick !important;
+}
+
+.burger-icon {
+    display: inline-block;
+    color: white;
+}
+
+
+/* Carousel */
 .nb-fix {
     margin-top: 56px;
 }
 
-.carousel-caption > h3,p{
-/*      display: block;*/
-/*    background: rgba(0, 0, 0, 0.5);*/
-}
-
-.carousel-caption > h3{
-    padding: 1rem;
-    margin-bottom: 25%;
-    text-align: left;
-    display: inline;
+#carousel-inicio {
+    padding: 0;
 }
 
 .carousel-caption {
-    align-content:
+    text-align: left;
+}
+
+.carousel-caption p{
+    background: rgba(0, 0, 0, 0.6);
+    padding: .7rem;
+    border-radius: 6px;
+    
+    display: block;
+}
+
+.carousel-caption h3 {
+    background: rgba(0, 0, 0, 0.7);
+    padding: .8rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    
+    align-content: left;
+    font-size: 3rem;
+    display:inline-flex;
+    text-align: left;
+}
+
+/* Separador */
+.separador {
+    color:  white;
+    
+    background-color: #69200c;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.separador h3 {
+    text-transform:none;
+}
+
+/* About us */
+#about-us{
+    background-color: white;
 }
 
 
 /* Categorias */
-#categorias{
-    background-color: #fbf8f8;
+
+#NuestrosServicios {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 2rem;
+    
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 
-#NuestrosProductos {
-    text-align: center;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+.horizontal-line {
+    background-color: #181818;
+    margin-bottom: 1.5rem;
 }
 
 .thumbnail {
@@ -64,28 +197,49 @@ Negro: #181818;
     padding-top: 25%;
 }
 
-/* Marcas */
-/*
-#marcas{
-    background-color: #80270f;
+.thumbnail:hover img{
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
 }
-*/
+
+/* Marcas */
+.bar-marcas{
+    background-color: #69200c;
+}
+
+.brand-logo {
+    /*    mx-5 px-4*/
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
 
 
 /* Footer */
 .footer{
-    background-color: #181818;
+    background-color: #2b2828;
 }
 
 .f-info{
     color: white;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .f-list{
     list-style: none;
     line-height: 1.5rem;
     padding-left: 0;
+}
+
+.f-list a {
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+.f-list a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .f-contacto{
