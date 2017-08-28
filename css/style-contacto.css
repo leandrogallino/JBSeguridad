@@ -1,0 +1,147 @@
+
+body {
+    background-color: #e1dfdf;
+}
+
+/* misc */
+
+/* Navbar */
+.navbar {
+    color: white;
+    background-color: #2b2828;
+    max-width: 100%;
+}
+
+.navbar-brand {
+/*    display: inline-block !important;*/
+    width: auto;
+}
+
+.navbar-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #e1dfdf;
+}
+
+.navbar a {
+    color: #eaeaea;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar-nav a {
+    font-size: .9rem;
+}
+
+.navbar-nav a:hover {
+    text-decoration: none;
+}
+
+.nb-text {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+#contacto-item {    
+    border: 1px solid #2b2828;
+    border-radius: 6px;
+}
+
+#contacto-item:hover {
+    border: 1px solid #eaeaea;
+}
+
+.navbar-nav a i {
+    color: firebrick;
+    font-size: 1.3rem;
+}
+
+.nb-div {
+    margin: auto;
+    padding-bottom: .5rem;
+    
+    
+    font-size: .8vw;
+    color:firebrick !important;
+}
+
+.burger-icon {
+    display: inline-block;
+    color: white;
+}
+
+/* Información contacto */
+
+.nb-fix {
+    margin-top: 115px;
+}
+
+/*fix form */
+
+.nb-fixform{
+    margin-top: 1px;
+}
+
+
+#contact-info a{
+    color: black;
+}
+
+
+/* Marcas */
+.bar-marcas{
+    background-color: #69200c;
+}
+
+.brand-logo {
+    /*    mx-5 px-4*/
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+
+
+/* Footer */
+.footer{
+    background-color: #2b2828;
+}
+
+.f-info{
+    color: white;
+    font-size: .9rem;
+}
+
+.f-list{
+    list-style: none;
+    line-height: 1.5rem;
+    padding-left: 0;
+}
+
+.f-list a {
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+.f-list a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.f-contacto{
+    display: inline-block;
+    margin-left: .7rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
