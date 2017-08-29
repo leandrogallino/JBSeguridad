@@ -1,0 +1,40 @@
+@media only screen and (min-width: 992px) and (max-width: 1600px) {
+    
+    /*    Navbar    */
+    .navbar-nav a {
+        font-size: 9px;
+        letter-spacing: 1px;
+        vertical-align: middle;
+    }
+    
+    .navbar-nav a:first-child {
+        margin-right: .5rem;
+    }
+    
+    .nb-div {
+        margin left: .25%;
+        margin right: .25%;
+    }
+    
+    .navbar-nav a i {
+        font-size: 12px;
+    }
+    
+    /*    Footer    */
+    .f-info {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .nb-text:hover {
+        background-color: dimgrey;
+        border-radius: 6px;
+        padding: auto auto;
+        margin: 0 0;
+    }
+    
+    #contacto-item:hover {
+        border-color: none;
+    }
+}
