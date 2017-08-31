@@ -1,0 +1,177 @@
+/*
+Rojo: #69200c;
+Blanco: #e1dfdf;
+Negro: #2b2828;
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+body {
+    background-color: #e1dfdf;
+}
+
+/* misc */
+
+/* Para que los divisores no sean seleccionables */
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: default;
+}
+
+/* Para resaltar la sección actual en el navbar */
+.navbar-nav a:nth-child(7) {
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    color: white;
+    background-color: #2b2828;
+    max-width: 100%;
+}
+
+.navbar-brand {
+    /*    display: inline-block !important;*/
+    width: auto;
+}
+
+.navbar-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    display: inline-block;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #e1dfdf;
+}
+
+.navbar a {
+    color: #eaeaea;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar-nav a {
+    font-size: .9rem;
+}
+
+.navbar-nav a:hover {
+    text-decoration: none;
+}
+
+.nb-text {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+#contacto-item {    
+    border: 1px solid #2b2828;
+    border-radius: 6px;
+    justify-content: center;
+}
+
+#contacto-item:hover {
+    border: 1px solid #eaeaea;
+}
+
+.navbar-nav a i {
+    color: firebrick;
+    font-size: 1.3rem;
+}
+
+.nb-div {
+    margin: auto;
+    padding-bottom: .5rem;
+
+
+    font-size: .8vw;
+    color:firebrick !important;
+}
+
+.burger-icon {
+    display: inline-block;
+    color: white;
+}
+
+
+
+/*  Cuerpo-info  */
+
+.titulo-seccion {
+    text-transform: uppercase;
+}
+
+.horizontal-line {
+    background-color: firebrick;
+    margin-bottom: 1.5rem;
+    width: auto;
+}
+
+.cuerpo-copete {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; 
+}
+
+.details {
+    text-align: justify;
+}
+
+.neo-info {
+    background-color: white;
+}
+
+.servicio-logo{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+/* Footer */
+.footer{
+    background-color: #2b2828;
+}
+
+.f-info{
+    color: white;
+    font-size: .9rem;
+}
+
+.f-list{
+    list-style: none;
+    line-height: 1.5rem;
+    padding-left: 0;
+}
+
+.f-list a {
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+.f-list a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.f-contacto{
+    display: inline-block;
+    margin-left: .7rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
