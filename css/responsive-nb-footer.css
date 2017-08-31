@@ -37,4 +37,8 @@
     #contacto-item:hover {
         border-color: none;
     }
+    
+    .burger-icon {
+        font-size: 2rem;
+    }
 }

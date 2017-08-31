@@ -5,6 +5,11 @@ body {
 
 /* misc */
 
+/* Para resaltar la sección actual en el navbar */
+.navbar-nav a:last-child {
+    font-weight: bold;
+}
+
 /* Navbar */
 .navbar {
     color: white;

@@ -1,0 +1,51 @@
+/*  From 0px to sm  */
+@media only screen and (max-width: 576px){  
+    
+    .cuerpo-info {
+        margin-top: 74px;
+    }
+    
+    .cuerpo-copete {
+        text-align: center;
+    }
+}
+
+/*  From sm to md  */
+@media only screen and (min-width: 577px) and (max-width: 768px){  
+
+    .cuerpo-info {
+        margin-top: 131px;
+    }
+
+    .cuerpo-copete {
+        text-align: center;
+    }
+    
+    .btn-catalogo {
+        
+    }
+}
+
+/*  From md to lg  */
+@media only screen and (min-width: 769px) and (max-width: 992px){  
+
+    .cuerpo-info {
+        margin-top: 62px;
+    }
+}
+
+/*  From lg to xl  */
+@media only screen and (min-width: 993px) and (max-width: 1200px){  
+
+    .cuerpo-info {
+        margin-top: 67px;
+    }
+}
+
+/*  From lg and up  */
+@media only screen and (min-width: 1201px){  
+
+    .cuerpo-info {
+        margin-top: 113px;
+    }
+}
