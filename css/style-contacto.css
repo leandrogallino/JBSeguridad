@@ -111,6 +111,10 @@ body {
     color: black;
 }
 
+.contacto {
+    margin-top: 3rem;
+}
+
 .contact-form {
     margin-top: auto;
     margin-bottom: auto;
