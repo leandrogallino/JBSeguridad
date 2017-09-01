@@ -14,6 +14,7 @@
     
     <!-- Custom CSS   -->
     <link rel="stylesheet" href="css/style-contacto.css">
+    <link rel="stylesheet" href="css/responsive-nb-footer.css">
     <link rel="shortcut icon" href="resources/favicon-lock.ico" type="image/x-icon">
     
 	<title>JB Seguridad - Inicio</title>
@@ -22,7 +23,7 @@
 	<!-- NavBar -->
     <nav class="navbar fixed-top navbar-expand-lg px-0">
 		<div class="container col-lg-10">
-            <a class="navbar-brand col-sm-3 col-md-3" href="#">
+            <a class="navbar-brand col-sm-3 col-md-3" href="index.html">
                 <img src="resources/JB-completo.PNG" class="img-fluid d-none d-md-inline-flex">
                 <img src="resources/JB.PNG" class="img-fluid d-none d-sm-inline d-md-none">
                 <p class="navbar-title d-sm-none">JB Seguridad</p>
@@ -32,14 +33,17 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link nb-text" href="#">Alarmas</a>
-                    <a class="nb-div mx-2 d-none d-lg-block unselectable">|</a>
-                    <a class="nav-item nav-link nb-text" href="#">Video Vigilancia</a>
-                    <a class="nb-div mx-2 d-none d-lg-block unselectable">|</a>
-                    <a class="nav-item nav-link nb-text" href="#">Video IP Intercomunicadores</a>
-                    <a class="nb-div mx-2 d-none d-lg-block unselectable">|</a>
-                    <a class="nav-item nav-link nb-text" href="#">Control de acceso</a>
-                    <a class="nav-item nav-link ml-lg-5 nb-text" id="contacto-item" href="#">Contacto<i class="fa fa-envelope-o ml-2 d-none d-lg-inline"></i></a>
+                    <a class="nav-item nav-link nb-text" href="alarmas.html">Alarmas</a>
+                    <a class="nb-div mx-0 mx-xl-2 d-none d-lg-block unselectable">|</a>
+                    <a class="nav-item nav-link nb-text" href="video-vigilancia.html">Video Vigilancia</a>
+                    <a class="nb-div mx-0 mx-xl-2 d-none d-lg-block unselectable">|</a>
+                    <a class="nav-item nav-link nb-text" href="video-ip.html">Video IP Intercomunicadores</a>
+                    <a class="nb-div mx-0 mx-xl-2 d-none d-lg-block unselectable">|</a>
+                    <a class="nav-item nav-link nb-text" href="control-acceso.html">Control de acceso</a>
+                    <a class="nav-item nav-link m-sm-0 ml-xl-5 nb-text" id="contacto-item" href="contacto.html">
+                        <p class="d-inline mx-0 px-0">Contacto</p>
+                        <i class="fa fa-envelope-o ml-0 ml-xl-2 d-none d-lg-inline" id="contact-envelope"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -47,16 +51,20 @@
 	<!-- /NavBar -->
 
     <!-- Información de contacto   -->
+<!--
     <div class="container-fluid px-0 nb-fix" id="contact-info">
+        <div class="row justify-content-center">
+            <p class="display-3 mt-3 mb-0 d-block titulo-seccion">Contacto</p>
+        </div>
+        <hr class="col-sm-4 mb-4 horizontal-line">
         <div class="row justify-content-md-center">
             <div class="col-md-12 col-sm-12 col-lg-4 contacto">
-                <h1>Contacto</h1>
                 <ul class="f-list float-left my-2">
-		                <li><i class="fa fa-phone fa-2x"></i><a href="tel:03434315902"><p class="f-contacto">0343 4315902</p></a></li>
-		                <li><i class="fa fa-whatsapp fa-2x"></i><a href="tel:+543434615952"><p class="f-contacto">+54 343-4615952</p></a></li>
-		                <li><i class="fa fa-facebook fa-2x"></i><a href="#"><p class="f-contacto">Juan Barrios</p></a></li>
-		                <li><i class="fa fa-envelope fa-2x"></i><a href="mailto:#"><p class="f-contacto">seguridad@Juanbarrios.com</p></a></li>
-		                <li><i class="fa fa-map-marker fa-2x"></i><p class="f-contacto">Gualeguaychu 923, Paraná, Entre Rios</p></li>
+		                <li><i class="fa fa-phone"></i><a href="tel:03434315902"><p class="f-contacto">0343 4315902</p></a></li>
+		                <li><i class="fa fa-whatsapp"></i><a href="tel:+543434615952"><p class="f-contacto">+54 343-4615952</p></a></li>
+		                <li><i class="fa fa-facebook"></i><a href="#"><p class="f-contacto">Juan Barrios</p></a></li>
+		                <li><i class="fa fa-envelope"></i><a href="mailto:#"><p class="f-contacto">seguridad@Juanbarrios.com</p></a></li>
+		                <li><i class="fa fa-map-marker"></i><p class="f-contacto">Gualeguaychu 923, Paraná, Entre Rios</p></li>
 		            </ul>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-6 my-5">
@@ -64,26 +72,73 @@
             </div>
         </div>
     </div>
+-->
+    <div class="container-fluid px-0 nb-margin-fix" id="contact-info">
+        <div class="row justify-content-center">
+            <p class="display-3 mt-3 mb-0 d-block titulo-seccion">Contacto</p>
+        </div>
+        <hr class="col-sm-4 mb-4 horizontal-line">
+        <div class="row justify-content-center my-3">
+            <div class="cont">
+              <ul class="contact">
+                <li style="text-align: left;">
+                  <p><i class="fa fa-map-marker fa-3x"></i></p>
+                  <p><strong>Gualeguaychu 923</strong><br>Paraná, Entre Rios</p>
+                </li>
+                <li style="text-align: left;">
+                  <p><i class="fa fa-phone fa-3x"></i></p>
+                    <p><strong>Teléfono</strong><br><a href="tel:03434315902">0343 4315902</a></p>
+                </li>
+                <li style="text-align: left;">
+                  <p><i class="fa fa-whatsapp fa-3x"></i></p>
+                  <a href="tel:+543434615952"><p><strong>Whatsapp</strong><br>+54 343-4615952</p></a>
+                </li>
+                <li style="text-align: left;">
+                  <p><i class="fa fa-facebook fa-3x"></i></p>
+                  <p><strong>Facebook</strong><br>Juan Barrios Seguridad</p>
+                </li>                  
+                <li style="text-align: left;">
+                  <p><i class="fa fa-envelope fa-3x"></i></p>
+                  <a href="mailto:#"><p><strong>E-mail</strong><br>JBSeguridad@JB.com</p></a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid px-0">
+        <div class="row justify-content-center mt-0">
+            <div class="col-lg-10 col-md-11 col-sm-11 my-3 px-1 py-1 googleMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.074973284377!2d-60.523059184844016!3d-31.741154481297105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b44d8ee3dd139f%3A0xebc3e3d0c81bc337!2sJuan+Barrios+Seguridad+Electronica+Profesional!5e0!3m2!1sen!2sus!4v1504043020691" width="100%" height="350" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
     <!-- Información de contacto   -->
     
+    
     <!-- Separador -->
+
 	<div class="container-fluid text-center py-4 px-0 separador">
 		<h1 class="display-4 d-none d-md-block"> Hacenos tu <br class="d-md-none">consulta <br>
         <h1 class="display-5 d-md-none"> Hacenos tu <br class="d-md-none">consulta <br>
-			<h3 class="display-6">Estamos para asesorarte</h3>
+<!--			<h3 class="display-6">Estamos para asesorarte</h3>-->
 		</h1>
+            <a href="#form">
+                <img class="img arrow-down" src="resources/down-arrow.png">
+            </a>
         </h1>
 	</div>
+
 	<!-- /Separador -->
     
     <!-- Form -->
-    <div class="container-fluid px-0 text-center py-5 bg-white">
-        <div class="row justify-content-md-center ">
+    <div class="container-fluid px-0 text-center py-3 bg-white" id="form">
+        <div class="row justify-content-md-center contact-form">
             <div class="form-style-6 my-3 mx-4">
-                <form>
-                    <input type="text" name="field1" placeholder="Nombre" />
-                    <input type="email" name="field2" placeholder="Email" />
-                    <textarea name="field3" rows="4" placeholder="Escribe aquí tu consulta"></textarea>
+                <form action="https://formspree.io/lea.gallino@gmail.com"
+      method="POST">
+                    <input type="text" name="name" placeholder="Nombre" />
+                    <input type="email" name="_replyto" placeholder="Email" />
+                    <textarea name="field3" rows="5" placeholder="Escribe aquí tu consulta"></textarea>
                     <input type="submit" value="Enviar" />
                 </form>
             </div>       
@@ -119,7 +174,7 @@
                 </ul>
             </div>
             <!-- GoogleMap -->
-            <div class="col-md-6 col-lg-4 px-sm-4 px-md-0 pt-md-5 pt-lg-4">
+            <div class="col-md-6 col-lg-3 px-sm-4 px-md-0 pt-md-5 pt-lg-4">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.074973284377!2d-60.523059184844016!3d-31.741154481297105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b44d8ee3dd139f%3A0xebc3e3d0c81bc337!2sJuan+Barrios+Seguridad+Electronica+Profesional!5e0!3m2!1sen!2sus!4v1504043020691" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>

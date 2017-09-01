@@ -5,6 +5,11 @@ body {
 
 /* misc */
 
+/* Para resaltar la sección actual en el navbar */
+.navbar-nav a:last-child {
+    font-weight: bold;
+}
+
 /* Navbar */
 .navbar {
     color: white;
@@ -82,8 +87,36 @@ body {
 
 /* Información contacto */
 
-.nb-fix {
-    margin-top: 115px;
+
+body {
+  font-family: "Segoe UI", Helvetica Neue, Tahoma, sans-serif;
+}
+
+.contact .fa:before {
+  display: inline-block;
+  opacity: 0.7;
+}
+
+.contact li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 1em;
+  text-align: center;
+}
+
+.contact p {
+  text-align: center;
+}
+
+
+.contact {
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.cont {
+  text-align: center;
 }
 
 
@@ -96,11 +129,27 @@ body {
     text-transform: uppercase;
 }
 
+.arrow-down {
+    width: 50px !important;
+}
+
 .separador h3 {
     text-transform:none;
 }
 
+
+
 /*fix form */
+
+.horizontal-line {
+    background-color: firebrick;
+    margin-bottom: 1.5rem;
+    width: auto;
+}
+
+.titulo-seccion {
+    text-transform: uppercase;
+}
 
 .nb-fixform{
     margin-top: 1px;
@@ -109,7 +158,9 @@ body {
 
 #contact-info a{
     color: black;
+    text-decoration: none;
 }
+
 
 .contacto {
     margin-top: 3rem;
@@ -119,6 +170,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 <style type="text/css">

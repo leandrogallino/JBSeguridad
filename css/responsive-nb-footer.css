@@ -1,31 +1,60 @@
-@media only screen and (min-width: 992px) and (max-width: 1600px) {
+/*............ Bootsrap breakpoints ................*/
+
+/*  From 0px to sm  */
+@media only screen and (max-width: 576px){  
     
-    /*    Navbar    */
-    .navbar-nav a {
-        font-size: 9px;
-        letter-spacing: 1px;
-        vertical-align: middle;
+    .nb-margin-fix {
+        margin-top: 74px;
     }
     
-    .navbar-nav a:first-child {
-        margin-right: .5rem;
-    }
-    
-    .nb-div {
-        margin left: .25%;
-        margin right: .25%;
-    }
-    
-    .navbar-nav a i {
-        font-size: 12px;
-    }
-    
-    /*    Footer    */
-    .f-info {
-        font-size: .8rem;
+    .cuerpo-copete {
+        text-align: center;
     }
 }
 
+/*  From sm to md  */
+@media only screen and (min-width: 577px) and (max-width: 768px){  
+
+    .nb-margin-fix {
+        margin-top: 131px;
+    }
+
+    .cuerpo-copete {
+        text-align: center;
+    }
+    
+    .btn-catalogo {
+        
+    }
+}
+
+/*  From md to lg  */
+@media only screen and (min-width: 769px) and (max-width: 992px){  
+
+    .nb-margin-fix {
+        margin-top: 62px;
+    }
+}
+
+/*  From lg to xl  */
+@media only screen and (min-width: 993px) and (max-width: 1200px){  
+
+    .nb-margin-fix {
+        margin-top: 67px;
+    }
+}
+
+/*  From lg and up  */
+@media only screen and (min-width: 1201px){  
+
+    .nb-margin-fix {
+        margin-top: 113px;
+    }
+}
+
+/*............ Genéricos ................*/
+
+/* Desde 0px hasta lg */
 @media only screen and (max-width: 992px) {
     .nb-text:hover {
         background-color: dimgrey;
@@ -33,8 +62,41 @@
         padding: auto auto;
         margin: 0 0;
     }
-    
+
     #contacto-item:hover {
         border-color: none;
+    }
+
+    .burger-icon {
+        font-size: 2rem;
+    }
+}
+
+/* Desde lg hasta 'xxl' */
+@media only screen and (min-width: 992px) and (max-width: 1600px) {
+
+    /*    Navbar    */
+    .navbar-nav a {
+        font-size: 9px;
+        letter-spacing: 1px;
+        vertical-align: middle;
+    }
+
+    .navbar-nav a:first-child {
+        margin-right: .5rem;
+    }
+
+    .nb-div {
+        margin left: .25%;
+        margin right: .25%;
+    }
+
+    .navbar-nav a i {
+        font-size: 12px;
+    }
+
+    /*    Footer    */
+    .f-info {
+        font-size: .8rem;
     }
 }

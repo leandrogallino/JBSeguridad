@@ -27,7 +27,7 @@ body {
 }
 
 /* Para resaltar la sección actual en el navbar */
-.navbar-nav a:first-child {
+.navbar-nav a:nth-child(3) {
     font-weight: bold;
 }
 
