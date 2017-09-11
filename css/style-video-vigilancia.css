@@ -2,3 +2,9 @@
 .navbar-nav a:nth-child(3) {
     font-weight: bold;
 }
+
+.servicio-logo {
+    width: 90%;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+}

@@ -1,0 +1,80 @@
+/*............ Bootsrap breakpoints ................*/
+
+/*  From 0px to sm  */
+@media only screen and (max-width: 576px){  
+
+    .cuerpo-copete {
+        text-align: center;
+    }
+    
+    .app-link {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1rem;
+        display: block;
+    }
+
+    .app-logo {
+        margin-left: 40%;
+        display: inline-block;
+        width: 20%;
+    }
+}
+
+/*  From sm to md  */
+@media only screen and (min-width: 577px) and (max-width: 768px){  
+
+    .cuerpo-copete {
+        text-align: center;
+    }
+
+    
+}
+
+/*  From md to lg  */
+@media only screen and (min-width: 769px) and (max-width: 992px){  
+    .cuerpo-copete {
+        text-align: center;
+    }
+    
+    .img-cuerpo {
+        border-radius: 15px;
+    }
+}
+
+/*  From lg to xl  */
+@media only screen and (min-width: 993px) and (max-width: 1200px){  
+    .img-cuerpo {
+        border-radius: 15px;
+    }
+}
+
+/*  From lg and up  */
+@media only screen and (min-width: 1201px){  
+    .img-cuerpo {
+        border-radius: 15px;
+    }
+}
+
+
+/*............ random breakpoints ................*/
+
+@media only screen and (min-width: 577px){
+
+    /*  video-ip: phone-app  */
+    
+    .app-link {
+        width: 30%;
+        display: inline-flex;
+    }
+
+    .app-link:first-of-type {
+        margin-right: 1.5rem;
+    }
+
+    .app-logo {
+        margin-left: 40%;
+        display: inline-block;
+        width: 20%;
+    }
+}
