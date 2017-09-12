@@ -9,6 +9,8 @@
 
 body {
   font-family: "Segoe UI", Helvetica Neue, Tahoma, sans-serif;
+    overflow-x: hidden;
+    max-width: 100;
 }
 
 .titulo-seleccion {
@@ -50,6 +52,12 @@ body {
   text-align: center;
 }
 
+/*Map*/
+
+.mapa {
+    max-width: 100%;
+    width: 100%;
+}
 
 /* Separador */
 .separador {
