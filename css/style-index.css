@@ -128,15 +128,6 @@ body {
 }
 
 .thumbnail:hover .caption{
-/*
-    display: block;
-    background-image:
-        linear-gradient(
-            rgba(0, 0, 0, 0.6),
-            rgba(0, 0, 0, 0.6)
-        );
-    padding-top: 25%;
-*/
     opacity: 1;
     transform: perspective(1px) scale(1);
 }
@@ -152,9 +143,6 @@ body {
 }
 
 .brand-logo {
-    /*    mx-5 px-4*/
-    padding-left: 1vw;
-    padding-right: 1vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
 }

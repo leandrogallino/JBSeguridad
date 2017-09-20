@@ -55,6 +55,27 @@ body {
     font-size: 1.2rem;
 }
 
+/*Boton*/
+.boton-contacto {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #69200c;
+    border-bottom: 2px solid #2b2828;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+
+.boton-contacto:hover{
+    background: #2b2828;
+    color: #fff;
+    text-decoration: none;
+}
+
 .neo-info {
     background-color: white;
 }
