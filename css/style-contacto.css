@@ -182,6 +182,7 @@ body {
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover{
     background: #2b2828;
+    cursor: pointer;
 }
 </style>
 
