@@ -7,6 +7,12 @@
         text-align: center;
     }
     
+    .subheader {
+        font-size: 33px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
     .app-link {
         width: 80%;
         margin-left: 10%;
