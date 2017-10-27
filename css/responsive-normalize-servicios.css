@@ -38,7 +38,9 @@
         text-align: center;
     }
 
-    
+    .PSNGO-logo {
+        border-radius: 25px;
+    }
 }
 
 /*  From md to lg  */
