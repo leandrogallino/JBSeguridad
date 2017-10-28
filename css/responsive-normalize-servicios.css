@@ -89,4 +89,11 @@
         display: inline-block;
         width: 20%;
     }
+    
+    .app-hand {
+        position: absolute;
+        bottom: 0;
+        max-height: 100%
+    }
+    
 }
